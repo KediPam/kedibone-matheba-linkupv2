@@ -10,35 +10,35 @@ const MyCommunityServiceData= [
         Category:"Hip Hop",
         numberOfClasses:"10",
         Image: img6,
-        bgColor: "#c5e1a5"
+        bgColor: "#b7e1e4"
     },
     {
         name:"Singing Classes",
         Category:"Gospel",
         numberOfClasses:"5",
         Image: img4,
-        bgColor: "#c5e1a5"
+        bgColor: "#b7e1e4"
     },
     {
         name:"Mathematics Classes",
         Category:"Chemistry",
         numberOfClasses:"5",
         Image: img5,
-        bgColor: "#c5e1a5"
+        bgColor: "#b7e1e4"
     },
     {
         name:"Art Classes",
         Category:"Architecture",
         numberOfClasses:"2",
         Image: img2,
-        bgColor: "#c5e1a5"
+        bgColor: "#b7e1e4"
     },
     {
         name:"Computer Classes",
         Category:"Software",
         numberOfClasses:"6",
         Image: img0,
-        bgColor: "#c5e1a5"
+        bgColor: "#b7e1e4"
     },
 ]
 

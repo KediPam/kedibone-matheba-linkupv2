@@ -17,8 +17,8 @@ const Home = ({ navigation }) => {
                 data={MyCommunityServiceData}
                 renderItem={({ item }) => {
                     return (
-                        <TouchableOpacity style={{ margin: 20, height: windowHeight * 0.2, backgroundColor:item.bgColor, borderRadius: 10}}>
-                            <View Style={{backgroundColor:item.bgColor}}>
+                        <TouchableOpacity onPress={() => navigation.navigate('Details')} style={{ margin: 20, height: windowHeight * 0.2, backgroundColor: item.bgColor, borderRadius: 10 }}>
+                            <View Style={{ backgroundColor: item.bgColor }}>
                                 <Text style={styles.name}>
                                     {item.name}
                                 </Text>
@@ -29,8 +29,8 @@ const Home = ({ navigation }) => {
                                     {item.numberOfClasses}
                                 </Text>
                                 <Image style={{
-                                    height: 80, width: 80, position:'absolute', right: 0, margin: 10, Button:0
-                                }} source={item.Image}/>
+                                    height: 80, width: 80, position: 'absolute', right: 0, margin: 10, Button: 0
+                                }} source={item.Image} />
 
                             </View>
 
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#c5e1a5',
+        backgroundColor: '#b7e1e4',
     },
     Category: {
         fontSize: 25,

@@ -7,7 +7,10 @@ const windowHeight = Dimensions.get('window').height;
 
 const Login = ({ navigation }) => {
     return (
-        <SafeAreaView>
+        <SafeAreaView style={styles.container}>
+
+        <Text style={{fontWeight:'100', fontSize: 34, marginBottom:10,}}>Hallo Again</Text>
+        <Text style={{marginBottom: 10, fontSize: 16, }}>Sign Up to continue</Text>
         <View style={styles.form}>
         <TextInput
                 style={styles.input}
@@ -27,6 +30,7 @@ const Login = ({ navigation }) => {
             >
                 <Text>Click Here</Text>
             </TouchableOpacity>
+            <Text style={{marginBottom: 10, fontSize:13,}}>Click Here to continue</Text>
         </SafeAreaView>
     );
 };
@@ -37,7 +41,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#2c3e50',
+        backgroundColor: '#b7e1e4',
     },
     input: {
         height: 40,
@@ -47,10 +51,10 @@ const styles = StyleSheet.create({
     },
     button: {
         alignItems: "center",
-        backgroundColor: "#c5e1a5",
+        backgroundColor: "#4c8c4a",
         padding: 10,
         margin: 20,
-        borderRadius: 200
+        borderRadius: 100
       },
       form:{
         margin: 10,
