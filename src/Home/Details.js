@@ -1,6 +1,6 @@
-//import liraries
+
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, TouchableOpacity, Image} from 'react-native';
 
 
 // create a component
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#2c3e50',
     },
-});
+})
 
 //make this component available to the app
 export default Details;

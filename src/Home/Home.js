@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
 import MyCommunityServiceData from './LinkDataSkills';
 
+
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
@@ -17,7 +18,10 @@ const Home = ({ navigation }) => {
                 data={MyCommunityServiceData}
                 renderItem={({ item }) => {
                     return (
-                        <TouchableOpacity onPress={() => navigation.navigate('Details')} style={{ margin: 20, height: windowHeight * 0.2, backgroundColor: item.bgColor, borderRadius: 10 }}>
+                        <TouchableOpacity 
+                            style={{ margin: 20, height: windowHeight * 0.2, backgroundColor:item.bgColor, borderRadius: 10, }}
+                            
+                            onPress={() => navigation.navigate('Details')}>
                             <View Style={{ backgroundColor: item.bgColor }}>
                                 <Text style={styles.name}>
                                     {item.name}
