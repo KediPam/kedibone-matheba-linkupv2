@@ -3,7 +3,7 @@ import { View, Button, Text, StyleSheet, Dimensions, Image } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
+import { FlatList, TouchableOpacity } from 'react-native';
 import MyCommunityServiceData from './LinkDataSkills';
 
 
@@ -19,9 +19,8 @@ const Home = ({ navigation }) => {
                 renderItem={({ item }) => {
                     return (
                         <TouchableOpacity 
-                            style={{ margin: 20, height: windowHeight * 0.2, backgroundColor:item.bgColor, borderRadius: 10, }}
-                            
-                            onPress={() => navigation.navigate('Details')}>
+                        onPress={() => navigation.navigate('Details')}
+                        style={{ margin: 20, height: windowHeight * 0.2, backgroundColor:item.bgColor, borderRadius: 10, }}>
                             <View Style={{ backgroundColor: item.bgColor }}>
                                 <Text style={styles.name}>
                                     {item.name}
