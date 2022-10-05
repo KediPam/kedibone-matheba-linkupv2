@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "165790419161",
+    "project_id": "link-up-74e44",
+    "storage_bucket": "link-up-74e44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165790419161:android:4621d8d265328c60a0d6c8",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165790419161-h427nk7vhf93q70grjlvnmh1bar52pqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNmqZv1-0S3ifL5SlMiUHfXw1-7VrfRns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165790419161-h427nk7vhf93q70grjlvnmh1bar52pqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,39 +8,44 @@ const Services = [
     {
         name: "Lets Dance",
         email: "dance@gmail.com",
-        contactNumber: "",
+        contactNumber: "0795135209",
         rating: "3",
-        ratings: dance
+        avatar: dance,
+        coord: {latitude: -26.037903, longitude:28.069633 },
 
     },
     {
         name: "Angelic Voice",
         email: "ac@gmail.com",
-        contactNumber: "",
+        contactNumber: "0795135209",
         rating: "3",
-        avatar: img4
+        avatar: img4,
+        coord: {latitude: -26.037903, longitude:28.069633 },
 
     }, {
         name: "Lets Learn Math",
         email: "llm@gmail.com",
-        contactNumber: "",
+        contactNumber: "0795135209",
         rating: "5",
-        avatar: geometry
+        avatar: geometry,
+        coord: {latitude: -26.037903, longitude:28.069633 },
 
     },
     {
         name: "Lets Code",
         email: "code@gmail.com",
-        contactNumber: "",
+        contactNumber: "0795135209",
         rating: "5",
-        avatar: computer
+        avatar: computer,
+        coord: {latitude: -26.037903, longitude:28.069633 },
 
     },{
         name: "Happy Art",
         email: "art@gmail.com",
-        contactNumber: "",
+        contactNumber: "0795135209",
         rating: "4",
-        avatar: paint
+        avatar: paint,
+        coord: {latitude: -26.037903, longitude:28.069633 },
 
     },
 ];
